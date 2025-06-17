@@ -6,7 +6,7 @@ project(
 )
 
 option(BUILD_DEMOS "Build demos" ON)
-option(BUILD_HANDS_ON "Build demos" ON)
+option(BUILD_HANDS_ON "Build hands-on" ON)
 
 
 if(BUILD_DEMOS)

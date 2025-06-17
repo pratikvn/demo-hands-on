@@ -4,9 +4,9 @@
 #include <omp.h>
 
 
-void matvec(const double* mat, const double* b, double* x)
+void matvec(int n, int nrhs, const double* mat, const double* b, double* x)
 {
-    // TODO
+    
 }
 
 
@@ -18,7 +18,7 @@ int main()
     std::vector<double> b(n * nrhs, 2.0);
     std::vector<double> x(n * nrhs, 0.0);
 
-    matvec(mat.data(), b.data(), x.data());
+    matvec(n, nrhs, mat.data(), b.data(), x.data());
 
     // TODO: Verify result.
     // TODO: Benchmark with different matrix sizes, number of threads and number
