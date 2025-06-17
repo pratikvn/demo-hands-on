@@ -4,3 +4,4 @@
 include(${PROJECT_SOURCE_DIR}/cmake/omp_helpers.cmake)
 
 add_omp_executable(matvec)
+add_omp_executable(reduction)
