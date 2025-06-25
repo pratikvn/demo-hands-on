@@ -7,6 +7,7 @@ int main() {
     for (int i = 0; i < 15; i++) {
         x = i;
     }
+    // x = 14
     std::cout << x << std::endl;
 
     #pragma omp parallel sections lastprivate(x)
@@ -20,5 +21,6 @@ int main() {
         #pragma omp section
         x = 4;
     }
+    // x = 4
     std::cout << x << std::endl;
 }
