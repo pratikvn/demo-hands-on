@@ -9,6 +9,7 @@ int main()
 
 #pragma omp parallel
     {
+#pragma omp single
         {
 #pragma omp task depend(inout : x)
             {
