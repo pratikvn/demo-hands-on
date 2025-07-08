@@ -3,4 +3,4 @@
 
 add_subdirectory(basics)
 add_subdirectory(pt2pt)
-# add_subdirectory(collectives)
+add_subdirectory(coll)
