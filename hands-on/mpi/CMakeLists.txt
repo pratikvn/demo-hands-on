@@ -5,4 +5,4 @@ include(${PROJECT_SOURCE_DIR}/cmake/mpi_helpers.cmake)
 
 add_mpi_executable(bandwidth)
 # add_mpi_executable(matvec_mpi)
-# add_mpi_executable(matvec_mpi_sol)
+add_mpi_executable(matvec_mpi_sol)
